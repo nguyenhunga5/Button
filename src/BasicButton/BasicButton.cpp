@@ -17,3 +17,7 @@ boolean BasicButton::_update_button_state(){
 	
 	return (digitalRead(_pin) == HIGH);
 }
+
+uint8_t BasicButton::pin() {
+	return _pin;
+}

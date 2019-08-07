@@ -20,7 +20,7 @@ class BasicButton : public Button{
 	
 	public:
 	BasicButton(uint8_t);
-
+	uint8_t pin();
 };
 
 #endif /* BASICBUTTON_H_ */
